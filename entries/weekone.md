@@ -8,8 +8,8 @@ I have spent the first week checking out SASS and Earsketch as possible topics f
 
    
 2. EarSketch
-3###### What is it?
-  * Is learning to code by making music. It works with python and javascript files. It is interactive, and easy to see ones progress. You can share out your music with peers and concentrate on incorprating all the learned skills to witness your own creation.
+###### What is it?
+  * Is learning to code by making music. It is also a scripting language.It is a DAW (Digital Audio Workstation), which is a computer software for recording, editing, and playing digital audio files. It works with python and javascript files. It is interactive, and easy to see ones progress. You can share out your music with peers and concentrate on incorprating all the learned skills to witness your own creation.
 #### EarSketch Sandbox
 ```python
 #		python code
@@ -18,7 +18,7 @@ I have spent the first week checking out SASS and Earsketch as possible topics f
 #		description:Comp
 #
 
-from earsketch import *
+from earsketch import * #adds the EarSketch API to your project.
 
 init() #prepares the DAW to accept and play music
 setTempo(140)
@@ -27,11 +27,25 @@ fitMedia(DUBSTEP_LEAD_003,1,1,7.5)
 fitMedia(DUBSTEP_BASS_WOBBLE_002,2,5,7) #sound,tracknum,start,end
 fitMedia(DUBSTEP_DRUMLOOP_MAIN_001,3,1,3)
 fitMedia(RD_UK_HOUSE__5THCHORD_1,4,4,6)
-finish()
+finish() #notifies the DAW that your code is complete
 
 ```
-  * 
+  
+![alt text](https://damianmooney.files.wordpress.com/2014/11/earsketch.png "labled sections")
+### Sections and their Purpose
+1. Files
+   * Has avalible beats/ upload your own
+   * where you can find your files that you saved.
+2. Console
+   * Where it will give you error messages, and let you know that your script is running.
+3. Digital Audio Workstation
+   * Shows you how the fiel containing music will interact with eachother.
+   * Shows you the wavelength
+   * Shows you where the beat/song starts and finishes.
+4. Code editor panel
+   * Where you write your code, and changes the DAW to make the music.
+
 #### Takeaways
  1. What I learned from my week of tinkering is that I like to see the progress happen with every line of code. I felt that Earsketch would allow me to harness my creativity and allow me to learn a whole new way code can change the lives of a person. It was an interesting way to be introduced to another part of computer science, that we have not learned in the classroom. I feel like I would start off with Earsketch, learn to use their code, and then learn SASS. 
  2.  I invisioned using the music as the background, changing tracks, almost like a playlist and designing a website-like tutorial showing simple tutorials, resources and end projects from other coders.
- 3. I also learned that patience is key. I started off with SASS, downloaded the program recommended on their site, and immediatly wanted to see magic happening. It turned out that the app they recommended had to have been downloaded onto that, and it quickly made me want to switch topics. With a bit of tinkering it came to my knowledge that it can also be downloaded to C9.
+ 3. I also learned and recommended that everyone have patience and take it slow when learning their own topic. I started off with SASS, downloaded the program recommended on their site, and immediatly wanted to see magic happening. It turned out that the app they recommended had to have been downloaded onto that, and it quickly made me want to switch topics. With a bit of tinkering it came to my knowledge that it can also be downloaded to C9.
