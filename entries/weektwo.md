@@ -87,7 +87,7 @@ fitMedia(drums, 2, 5, 9)
 finish()
 ```
   * After I fixed the bug, I compared answers and learned that EarSketch recommends you declare variables in clusters on top. 
-# Recomendations
+## Recomendations
   * Always comment code. Try commenting things out when it runs and does not go the way you want it to. Also comment what the code is supposed to do so you remember the next session or someone else can learn from it.
   * Learn to write your code the most efficent way possible. It makes it look neater and easier to see the different parts to the project. It makes it easier to comment blocks of code that do not work to fix bugs and evades confusion. I did not have proper indentations and syntax and the only thing that fixed the code was commenting line by line to add the missing ')'
   
