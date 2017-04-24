@@ -14,6 +14,7 @@
        for i in range(2):
        # Anything that follows the colon has to be indented and will be able to be repeated several times in the song
     ```
+#### Thoughts
   * At first I believed it would follow the same structure as #sound,tracknum,start,end in fit media. When I tried it, I got alot of errors of overwriting. I was confused, but after reading I saw that they used measure instead of a number. You could add measure + a number to decide how often it is replicated.After tinkering, I came up with this
 
 ![daw](daw4.png "loop")
@@ -22,6 +23,7 @@ from earsketch import *
 init()
 setTempo(140)
 for measure in range(1,6):
+#range is thourgh which measures it plays, the last number is exclusive
   fitMedia(DUBSTEP_BASS_WOBBLE_008,1,measure,measure+0.25)
   fitMedia(TECHNO_ACIDBASS_001,1,measure,measure+.75)
   fitMedia(TECHNO_ACIDBASS_007,2,measure,measure+1)
@@ -29,3 +31,11 @@ for measure in range(1,6):
 fitMedia(RD_UK_HOUSE__5THCHORD_1,3,1,6)
 finish()
 ```
+#### Learnings
+I was using measure + number, but the shorthand is += and -=
+  * (+) adds to variable value
+  * (-) subtracts from variable value
+##### 4/22/17
+#### Reflection/Advice 
+1. Simplicity. If you get your code to work how you want, find ways to improve. It is not only benefical for you to make sure the concepts being taught are  well grasped by you, but it also prevents long tedious code. Also, by making the code essier, it gives you more working room . In the begining , i was using several lines just to get the musix to appear. Now, we can add effects and breaks using looping.
+2. I want to emphasis that before you tinker, look at examples and read the whole section. It would have saved me some time, but instead I was rushing and tried to fit bumbers in the loop. I was confused to why it was not working. Once I took the time the problem was simple; All I had to do was type measure + a number to give the placement of the track. 
